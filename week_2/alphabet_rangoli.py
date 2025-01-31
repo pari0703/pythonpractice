@@ -2,7 +2,7 @@ def rangoli(size):
     import string
     alphabet = string.ascii_lowercase
     
-    # Create the top part of the rangolis
+    # Create the top part of the rangoliss
     rows = []
     for i in range(size):
         row = '-'.join(alphabet[size-1:i:-1] + alphabet[i:size])
